@@ -38,3 +38,7 @@ input[type="text"],
       margin: 60px auto;
       background-color: inherit;
     }
+
+    .color {
+    background: #EB813F;
+    }

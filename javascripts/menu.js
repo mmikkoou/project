@@ -11,13 +11,20 @@ $(document).ready(function() {
   $(document).ready(function() {
     $('button').click(function(){
       $('button').addClass('color');
-        $('button').html('ПОСТАВЛЕНО');
+        $('button').html('Поставлено');
       });
     });
 
     $(document).ready(function() {
-      $('button').click(function(){
-        $('button').addClass('color');
-        $('button').html('ЗАБРОНИРОВАНО');
+      $('.btn_t').click(function(){
+        $('.btn_t').addClass('color');
+        $('.btn_t').html('Забронировано');
+      });
+    });
+
+    $(document).ready(function() {
+      $('.btn').click(function(){
+        $('.btn').addClass('color');
+        $('.btn').html('Отправлено');
       });
     });
