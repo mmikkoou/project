@@ -1,0 +1,8 @@
+div {
+  display: inline-flex;
+  position: relative;
+  margin: 30px 10px 0;
+}
+ div > img {
+   border: 3px solid #000;
+ }
