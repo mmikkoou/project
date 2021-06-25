@@ -8,4 +8,22 @@ button {
   text-align: center;
   margin: 60px auto;
   background-color: inherit;
+  margin: 60px;
+  margin-left: 30vw;
+}
+
+div > img {
+  align: left;
+  float: left;
+  position: relative;
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #000;
+}
+
+p {
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 30vw;
+  width: 40vw;
 }

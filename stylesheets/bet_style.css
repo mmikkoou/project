@@ -30,9 +30,10 @@ p {
 .radio-list {
   font-size: 24px;
   font-weight: 500;
-  display: inline-block;
+  display: block;
   position: relative;
   width: 460px;
+  margin: 30px auto;
 }
 
 button {
