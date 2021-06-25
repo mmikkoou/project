@@ -12,7 +12,7 @@ button {
   margin-left: 30vw;
 }
 
-div > img {
+.plan > img {
   align: left;
   float: left;
   position: relative;
