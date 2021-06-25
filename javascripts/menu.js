@@ -9,9 +9,9 @@ $(document).ready(function() {
   });
 
   $(document).ready(function() {
-    $('button').click(function(){
-      $('button').addClass('color');
-        $('button').html('Поставлено');
+    $('.btn_b').click(function(){
+      $('.btn_b').addClass('color');
+        $('.btn_b').html('Поставлено');
       });
     });
 
