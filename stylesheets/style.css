@@ -72,16 +72,47 @@ hr {
   right: 0;
   top: 0;
   margin: 0;
+  z-index: 40;
+  background: #FEFDE8;
+  transition: all .4s ease;
+  border: 3px solid #000;
 }
+
+.mainmenu.fade > a {
+      transform: translateX(4px);
+    }
 
 li {
   margin-bottom: 60px;
-  margin-left: 100px;
+  margin-top: 70px;
+  margin-left: 10vw;
   font-size: 30px;
   font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  list-style-type: none;
 }
 
+.icon_close {
+  margin: 20px auto;
+  margin-left: 20px;
+}
 
-.hidden {
+.black_screen {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 20;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  transition: all .6s ease;
+}
+
+.none {
   display: none;
 }
