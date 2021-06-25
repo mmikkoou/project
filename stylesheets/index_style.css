@@ -28,7 +28,10 @@ p {
   margin: 0;
 }
 
-
+.box {
+display: flex;
+justify-content: flex-end;
+}
 
 button:last-of-type {
     margin-top: 45px;

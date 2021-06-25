@@ -27,12 +27,17 @@ p {
   position: relative;
 }
 
+.box_answer {
+display: flex;
+justify-content: space-between;
+}
+
 .radio-list {
   font-size: 24px;
   font-weight: 500;
   display: block;
   position: relative;
-  width: 460px;
+  width: 410px;
   margin: 30px auto;
 }
 
@@ -47,4 +52,8 @@ button {
   text-align: center;
   margin: 60px auto;
   background-color: inherit;
+}
+
+.color {
+background: #EB813F;
 }
